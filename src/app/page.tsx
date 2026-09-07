@@ -5,6 +5,7 @@ import NewsSection from '@/components/sections/NewsSection';
 import MapSection from '@/components/sections/MapSection';
 import TicketsSection from '@/components/sections/TicketsSection';
 import SponsorsSection from '@/components/sections/SponsorsSection';
+import GallerySection from '@/components/sections/GallerySection';
 import ContactSection from '@/components/sections/ContactSection';
 import AIAssistant from '@/components/ui/AIAssistant';
 import MotionSection from '@/components/ui/MotionSection';
@@ -22,7 +23,8 @@ export default function Home() {
         <MotionSection index={3}><MapSection /></MotionSection>
         <MotionSection index={4}><TicketsSection /></MotionSection>
         <MotionSection index={5}><SponsorsSection /></MotionSection>
-        <MotionSection index={6}><ContactSection /></MotionSection>
+        <MotionSection index={6}><GallerySection /></MotionSection>
+        <MotionSection index={7}><ContactSection /></MotionSection>
       </div>
       <AIAssistant />
     </>

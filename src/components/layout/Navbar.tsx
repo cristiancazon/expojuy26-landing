@@ -9,6 +9,7 @@ const links = [
   ['Mapa', '#mapa'],
   ['Entradas', '#entradas'],
   ['Sponsors', '#sponsors'],
+  ['Galería', '#galeria'],
   ['Contacto', '#contacto'],
 ];
 
