@@ -109,9 +109,9 @@
 .sponsor-track { width: max-content; display: flex; gap: 1rem; animation: sponsorMarquee 34s linear infinite; }
 .sponsor-track.reverse { animation-direction: reverse; animation-duration: 40s; }
 .sponsor-window:hover .sponsor-track { animation-play-state: paused; }
-.sponsor-card { width: 240px; height: 105px; display: grid; place-items: center; background: white; border: 1px solid #e3e5eb; border-radius: 1rem; box-shadow: 0 8px 24px rgba(31,20,48,.06); }
-.sponsor-card { transition: transform .25s ease, box-shadow .25s ease; }
-.sponsor-card:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 34px rgba(31,20,48,.14); }
+.sponsor-card { width: 240px; height: 105px; display: grid; place-items: center; background: transparent; border: 0; box-shadow: none; }
+.sponsor-card { transition: transform .25s ease; }
+.sponsor-card:hover { transform: translateY(-3px) scale(1.02); }
 .sponsor-card span { font-weight: 850; color: #202231; text-align: center; padding: 1rem; }
 .sponsor-logo { display: block; width: 210px; height: 76px; }
 @keyframes sponsorMarquee { to { transform: translateX(calc(-33.333% - .33rem)); } }
